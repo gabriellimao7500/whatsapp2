@@ -80,7 +80,7 @@ const handleLogin = (e) => {
     login.style.display = "none "
     chat.style.display = "flex"
 
-    websocket = new WebSocket("ws://localhost:8080")
+    websocket = new WebSocket("wss://whatsapp2-0q4x.onrender.com")
 
     websocket.onmessage = processMessage
 }
